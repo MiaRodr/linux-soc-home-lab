@@ -15,7 +15,7 @@ grep "PID" process.log | wc -l
 ## Findings
 - Identified `python3 suspicious_script.py`
 - Identified `updater.sh`
-- Found normal system processes including `nginx`, `SSHD`, and `cron`
+- Found normal system processes including `nginx`, `sshd`, and `cron`
 - Detected 6 process records
 
 ## Analysis
