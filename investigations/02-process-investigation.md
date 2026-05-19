@@ -4,10 +4,13 @@
 Investigate running processes and identify potentially suspicious activity.
 
 ## Commands Used
+
+```bash
 cat process.log
 grep "python3" process.log
 grep "updater" process.log
 grep "PID" process.log | wc -l
+```
 
 ## Findings
 - Identified `python3 suspicious_script.py`
