@@ -8,15 +8,18 @@ Investigate suspicious authentication activity and determine whether indicators 
 
 Authentication logs:
 
+```bash
 Failed password for root from 185.22.61.7
 Failed password for admin from 185.22.61.7
 Accepted password for root from 185.22.61.7
+```
 
 Processes observed:
 
+```bash
 root 2033 python3 backdoor.py
 root 2148 nc -lvp 4444
-
+```
 
 ## Investigation Steps
 
