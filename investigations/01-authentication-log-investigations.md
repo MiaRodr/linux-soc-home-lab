@@ -4,9 +4,11 @@
 Investigate authentication logs to identify suspicious login activity and potential brute-force attempts.
 
 ## Commands Used
+
+```bash
 grep "Failed" suspicious-login.txt
 grep "Failed" suspicious-login.txt | wc -l
-
+```
 
 ## Findings
 - Detected multiple failed login attempts targeting `root` and `admin`
