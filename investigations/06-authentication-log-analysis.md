@@ -37,7 +37,8 @@ Compromise suspected but not confirmed.
 
 **Recommended Actions:**
 
-- Review additional authentication logs
-- Investigate related processes and active sessions
-- Examine source IP activity
+- Review additional authentication activity for the `root` account to identify unusual login patterns
+- Investigate related processes and active sessions for suspicious activity
+- Review active network connections for unexpected external communication
+- Examine source IP activity associated with `203.0.113.25`
 - Search for indicators of compromise (IOCs)
