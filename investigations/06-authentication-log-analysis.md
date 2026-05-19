@@ -23,7 +23,9 @@ grep "203.0.113.25" auth-events.log
 
 The log activity suggests repeated failed authentication attempts followed by successful access to a privileged account. Multiple failed attempts occurring before successful access may indicate suspicious authentication activity or possible credential compromise.
 
-Current evidence does not confirm a system compromise. Additional investigation is required to determine whether the login activity was authorized.
+Authentication analysis identified 4 `root` authentication events consisting of 3 failed attempts and 1 successful authentication event. This activity appears suspicious due to successful privileged account access occurring after multiple failed authentication attempts.
+
+Current evidence does not confirm a system compromise. Further investigation is required to determine whether the activity was authorized and whether any indicators of compromise (IOCs) are present.
 
 ## Conclusion
 
