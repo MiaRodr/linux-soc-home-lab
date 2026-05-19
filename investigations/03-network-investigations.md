@@ -4,9 +4,12 @@
 Investigate listening services and network activity to identify potentially suspicious behavior.
 
 ## Commands Used
+
+```bash
 ss -tunap
 grep "LISTEN" services.log
 grep "python" services.log
+```
 
 ## Findings
 - Identified `python3 backdoor.py` listening on port `4444`
