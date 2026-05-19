@@ -29,7 +29,7 @@ Current evidence does not confirm a system compromise. Additional investigation 
 
 **Observed:**
 
-Repeated failed login attempts against the `admin` account from `203.0.113.25` followed by successful authentication to the `root` account.
+Repeated failed login attempts against the `admin` account from `203.0.113.25` followed by successful authentication to the privileged `root` account from the same external IP.
 
 **Status:**
 
